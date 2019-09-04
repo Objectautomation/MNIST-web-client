@@ -1,12 +1,7 @@
 # image-upload-js
 
-- clone this respository in a workspace
 - cd into the repo
 - RUN `npm install`
+- Connect to the power AI vision server
 - RUN `node index.js`
-- On POSTMAN, make a POST http://localhost:8800/upload with body option form-data and fields:
-    "image": <file from desktop>
-- Alternately you can also use curl to test
-
-`curl -F "image=@/<filePath>" localhost:8800/upload`
-replace filePath with image file on desktop
+- In the browser go to http://localhost:5000/ and upload a test image.
